@@ -27,7 +27,7 @@ public class Main {
 			
 		}
 		display.dispose();
-		System.out.println("User off");
+		System.out.println("The user has logged out");
 
 	}
 }
