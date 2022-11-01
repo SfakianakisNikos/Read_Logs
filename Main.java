@@ -22,10 +22,12 @@ public class Main {
 		while (!shell.isDisposed()) {
 			if (!display.readAndDispatch()) {
 				display.sleep();
+				
 			}
- 
+			
 		}
 		display.dispose();
+		System.out.println("User off");
 
 	}
 }
