@@ -17,7 +17,7 @@ public class Main {
 		buildCmps.showComposites();
 
 		shell.open(); 
-		shell.setText("Read logs from file");
+		shell.setText("Read logs from File");
 //		shell.setSize(600, 400);
 		while (!shell.isDisposed()) {
 			if (!display.readAndDispatch()) {
